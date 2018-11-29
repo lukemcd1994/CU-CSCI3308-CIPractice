@@ -2,7 +2,3 @@ language: c
 script: make && make test
 compiler:
   - gcc
-addons:
-  apt:
-    packages:
-      -check
